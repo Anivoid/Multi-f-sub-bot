@@ -20,7 +20,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     # Handle "about" callback data
     if data == "about":
         await query.message.edit_text(
-            text=f"<b>┏━━━━━•◦●◉✿ ❟❛❟ ✿◉●◦•━━━━━━┓\n× ○ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ : <a href='tg://user?id=7102263732'>Waifu</a>\n× ○ ᴀɴɪᴍᴇ ᴄʜᴀᴛ : <a href='https://t.me/+ZsTyVaKlWL9lNjdl'>ʜᴇɴᴛᴀɪ ꜰʟɪx :)</a>\n× ○ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href='https://t.me/blackhawks_unit'>Haniflix network</a>\n┗━━━━━•◦●◉✿ ❟❛❟ ✿◉●◦•━━━━━━┛</b>",
+            text=f"<b>┏━━━━━•◦●◉✿ ❟❛❟ ✿◉●◦•━━━━━━┓\n× ○ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ : <a href='tg://user?id=7102263732'>Waifu</a>\n× ○ ᴀɴɪᴍᴇ ᴄʜᴀᴛ : <a href='https://t.me/+ZsTyVaKlWL9lNjdl'>Haniflix :)</a>\n× ○ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href='https://t.me/blackhawks_unit'>Haniflix network</a>\n┗━━━━━•◦●◉✿ ❟❛❟ ✿◉●◦•━━━━━━┛</b>",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
